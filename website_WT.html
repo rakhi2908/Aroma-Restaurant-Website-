@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma Restaurant</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #f0f0f0, #d9e8c3);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #5B9A3A;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .button {
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 18px;
+            color: white;
+            background-color: #5B9A3A;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button:hover {
+            background-color: #4A7A2A;
+            transform: scale(1.05);
+        }
+
+        p {
+            max-width: 600px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        b {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #4A7A2A;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .button {
+                width: 90%;
+                font-size: 16px;
+            }
+
+            b {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Aroma Restaurant!</h1>
+    <p>Aroma Restaurant combines fast food favorites with authentic Indian dishes, creating a unique culinary experience. Enjoy a warm atmosphere and exceptional service with every meal.Aroma has something special for you.</p>
+    <b>Fast Food Favorites</b>
+    <p>Indulge in our selection of mouthwatering fast food.From juicy burgers and crispy fries to delicious sandwiches and freshly made pizzas,our fast food menu is designed for those who appreciate quick,tasty meals without compromising on quality.</p>
+    <button class="button" onclick="window.location.href='fastfood.html'">Fast Food</button>
+    <b>Authentic Indian Cuisine</b>
+    <p>For those seeking a taste of India, our restaurant offers an extensive menu of traditional Indian dishes. Experience the vibrant flavors of our Butter Chicken,fragrant Biryani,and savory Paneer Tikka,all prepared with authentic spices and fresh ingredients.Each dish tells a story and brings the rich culinary heritage of India right to your table.</p>
+    <button class="button" onclick="window.location.href='indianfood.html'">Authentic Indian Food</button>
+    <b>Visit Us</b>
+    <p>Join us at Aroma Restaurant,where we combine the best of fast food and Indian cuisine.Whether you dine in,take out,or order delivery,we look forward to serving you delicious meals that will leave you coming back for more!</p>
+</body>
+</html>
